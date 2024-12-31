@@ -24,11 +24,11 @@ html {
 }
 
 .header {
+	margin-top: 37px;
 	&__inner {
 	display: flex;
     justify-content: space-between;
     align-items: center;
-	 margin-top: 37px;
 	}
 
 	&__logo {
@@ -67,10 +67,10 @@ html {
 }
 
 .nature {
+	margin-top: 105px;
 	&__inner {
 		display: flex;
       justify-content: space-between;
-		margin-top: 105px;
 	}
 
 	&__right {
@@ -122,5 +122,58 @@ html {
 
 	&__img3 {
 		margin-bottom: 80px;
+	}
+}
+
+.cootage {
+	margin-top: 176px;
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__left {
+		max-width: 384px;
+	}
+
+	&__right {
+		max-width: 614px;
+		margin-right: 76px;
+	}
+	&__h2 {
+		color: $main-color;
+		font-size: 36px;
+		font-weight: 600;
+		text-wrap: wrap;
+		font-family: $second-font;
+		line-height: 150%;
+		margin: 105px 0 0 0;
+	}
+
+	&__p1 {
+		color: $second-color;
+		font-size: 18px;
+		text-wrap: wrap;
+		max-width: 568px;
+		line-height: 150%;
+		margin: 24px 0 0 0;
+	}
+
+	&__p2 {
+		color: $second-color;
+		font-size: 18px;
+		text-wrap: wrap;
+		max-width: 556px;
+		line-height: 150%;
+		margin: 16px 0 48px 0;
+	}
+
+	&__link {
+		color: white;
+		font-size: 16px;
+		background-color: #0E1734;
+		text-decoration: none;
+		padding: 16px 32px;
+		border-radius: 4%;
 	}
 }
