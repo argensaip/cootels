@@ -177,3 +177,55 @@ html {
 		border-radius: 4%;
 	}
 }
+
+.cabin {
+	margin-top: 160px;
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		margin-right: 106px;
+	}
+
+	&__h2 {
+		font-family: $second-font;
+		font-weight: 600;
+		font-size: 36px;
+		line-height: 150%;
+		color: $main-color;
+		margin: 113px 0 24px 0;
+	}
+
+	&__p {
+		font-size: 18px;
+		line-height: 150%;
+		color: $second-color;
+		max-width: 580px;
+		margin: 0;
+	}
+}
+
+.food {
+	margin-top: 32px;
+	&__inner {
+		display: flex;
+		margin-right: 106px;
+		justify-content: space-between;
+	}
+
+	&__h2 {
+		font-family: $second-font;
+		font-weight: 600;
+		font-size: 36px;
+		line-height: 150%;
+		color: $main-color;
+		margin: 113px 0 24px 0;
+	}
+
+	&__p {
+		font-size: 18px;
+		line-height: 150%;
+		color: $second-color;
+		max-width: 584px;
+		margin: 0;
+	}
+}

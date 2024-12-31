@@ -162,3 +162,51 @@ body {
   padding: 16px 32px;
   border-radius: 4%;
 }
+
+.cabin {
+  margin-top: 160px;
+}
+.cabin__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 106px;
+}
+.cabin__h2 {
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: #192252;
+  margin: 113px 0 24px 0;
+}
+.cabin__p {
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  max-width: 580px;
+  margin: 0;
+}
+
+.food {
+  margin-top: 32px;
+}
+.food__inner {
+  display: flex;
+  margin-right: 106px;
+  justify-content: space-between;
+}
+.food__h2 {
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: #192252;
+  margin: 113px 0 24px 0;
+}
+.food__p {
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  max-width: 584px;
+  margin: 0;
+}
