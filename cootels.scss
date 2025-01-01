@@ -229,3 +229,60 @@ html {
 		margin: 0;
 	}
 }
+
+.choice {
+	margin-top: 149px;
+	&__inner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	&__h2 {
+		font-family: $second-font;
+		font-weight: 600;
+		font-size: 36px;
+		line-height: 150%;
+		color: $main-color;
+		margin: 0;
+	}
+	&__p {
+		font-size: 18px;
+		line-height: 150%;
+		color: $second-color;
+		margin: 24px 0 32px 0;
+		max-width: 588px;
+	}
+
+	&__link {
+		color: white;
+		font-size: 16px;
+		background-color: #0E1734;
+		text-decoration: none;
+		padding: 16px 32px;
+		border-radius: 4%;
+	}
+}
+
+.room {
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__item {
+		max-width: 384px;
+	}
+
+	&__p {
+		font-size: 18px;
+		line-height: 150%;
+		color: $second-color;
+		margin: 16px 0 32px 0;
+	}
+
+	&__h2 {
+		margin: 32px 0 0 0;
+	}
+}
