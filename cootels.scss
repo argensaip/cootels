@@ -266,6 +266,7 @@ html {
 }
 
 .room {
+	margin-top: 88px;
 	&__inner {
 		display: flex;
 		justify-content: space-between;
@@ -275,6 +276,15 @@ html {
 		max-width: 384px;
 	}
 
+	&__h2 {
+		color: black;
+		font-size: 24px;
+		font-family: $second-font;
+		font-weight: 600;
+		line-height: 150%;
+		margin: 32px 0 0 0;
+	}
+
 	&__p {
 		font-size: 18px;
 		line-height: 150%;
@@ -282,7 +292,14 @@ html {
 		margin: 16px 0 32px 0;
 	}
 
-	&__h2 {
-		margin: 32px 0 0 0;
+	&__link {
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		color: #424F7B;
+		font-size: 18px;
+		font-weight: 400;
+		max-width: 129px;
 	}
 }

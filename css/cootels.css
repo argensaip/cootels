@@ -244,6 +244,9 @@ body {
   border-radius: 4%;
 }
 
+.room {
+  margin-top: 88px;
+}
 .room__inner {
   display: flex;
   justify-content: space-between;
@@ -251,12 +254,27 @@ body {
 .room__item {
   max-width: 384px;
 }
+.room__h2 {
+  color: black;
+  font-size: 24px;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  line-height: 150%;
+  margin: 32px 0 0 0;
+}
 .room__p {
   font-size: 18px;
   line-height: 150%;
   color: #848FAC;
   margin: 16px 0 32px 0;
 }
-.room__h2 {
-  margin: 32px 0 0 0;
+.room__link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #424F7B;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 129px;
 }
