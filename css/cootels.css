@@ -277,4 +277,93 @@ body {
   font-size: 18px;
   font-weight: 400;
   max-width: 129px;
+  line-height: 150%;
+}
+
+.book__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.book__right {
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-size: 24px;
+  max-width: 588px;
+}
+.book__h6 {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+  color: #424F7B;
+  margin: 0;
+}
+.book__h2 {
+  font-weight: 600;
+  font-family: "Montserrat", serif;
+  line-height: 150%;
+  font-size: 36px;
+  color: #192252;
+  margin: 18px 0 24px 0;
+}
+.book__p {
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  margin: 0;
+  max-width: 360px;
+}
+.book__links {
+  display: flex;
+  align-items: center;
+  max-width: 316px;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.book__link1 {
+  text-decoration: none;
+  padding: 16px 32px;
+  font-size: 16px;
+  color: white;
+  background-color: #0E1734;
+  border-radius: 4%;
+}
+.book__link2 {
+  text-decoration: none;
+  font-size: 16px;
+  color: #0E1734;
+}
+.book__item {
+  border-radius: 4%;
+  display: flex;
+  justify-content: space-between;
+  color: #424F7B;
+  line-height: 150%;
+}
+.book__h3 {
+  margin: 0;
+  color: #424F7B;
+  line-height: 150%;
+  font-weight: 600;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.book__rightp {
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  margin: 22px 0 0 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  max-width: 476px;
+}
+.book__item2 {
+  margin: 24px 0 20px 0;
+}
+.book__button {
+  background-color: #FFECE2;
+  border-radius: 50%;
+  border: none;
+  padding: 6px 8px;
 }
