@@ -280,6 +280,9 @@ body {
   line-height: 150%;
 }
 
+.book {
+  margin-top: 160px;
+}
 .book__inner {
   display: flex;
   justify-content: space-between;
