@@ -289,7 +289,7 @@ body {
   font-family: "Montserrat", serif;
   font-weight: 600;
   font-size: 24px;
-  max-width: 588px;
+  width: 588px;
 }
 .book__h6 {
   font-size: 16px;
@@ -334,11 +334,14 @@ body {
   color: #0E1734;
 }
 .book__item {
-  border-radius: 4%;
+  border-radius: 4px;
   display: flex;
   justify-content: space-between;
   color: #424F7B;
   line-height: 150%;
+  box-shadow: 1px 1px 10px #192252;
+  align-items: center;
+  padding: 30px 36px;
 }
 .book__h3 {
   margin: 0;
@@ -348,6 +351,7 @@ body {
   font-size: 24px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .book__rightp {
   font-size: 18px;
@@ -360,9 +364,18 @@ body {
 }
 .book__item2 {
   margin: 24px 0 20px 0;
+  box-shadow: 1px 1px 10px #192252;
+  border-radius: 4px;
+  padding: 36px;
 }
 .book__button {
   background-color: #FFECE2;
+  border-radius: 50%;
+  border: none;
+  padding: 6px 8px;
+}
+.book__button2 {
+  background-color: #FF620A;
   border-radius: 50%;
   border: none;
   padding: 6px 8px;

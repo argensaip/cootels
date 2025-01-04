@@ -317,7 +317,7 @@ html {
 		font-family: $second-font;
 		font-weight: 600;
 		font-size: 24px;
-		max-width: 588px;
+		width: 588px;
 	}
 	&__h6 {
 		font-size: 16px;
@@ -366,11 +366,14 @@ html {
 	}
 
 	&__item {
-		border-radius: 4%;
+		border-radius: 4px;
 		display: flex;
 		justify-content: space-between;
 		color: #424F7B;
 		line-height: 150%;
+		box-shadow: 1px 1px 10px $main-color;
+		align-items: center;
+		padding: 30px 36px;
 	}
 
 	&__h3 {
@@ -381,6 +384,7 @@ html {
 		font-size: 24px;
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 	}
 
 	&__rightp {
@@ -395,9 +399,19 @@ html {
 
 	&__item2 {
 		margin: 24px 0 20px 0;
+		box-shadow: 1px 1px 10px $main-color;
+		border-radius: 4px;
+		padding: 36px;
 	}
 	&__button {
 		background-color: #FFECE2;
+		border-radius: 50%;
+		border: none;
+		padding: 6px 8px;
+	}
+
+	&__button2 {
+		background-color: #FF620A;
 		border-radius: 50%;
 		border: none;
 		padding: 6px 8px;
